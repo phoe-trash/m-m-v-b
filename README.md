@@ -3,8 +3,11 @@
 
 Just when you need to accomodate multiple multiple value lists.
 
-Sample usage:
+### Exported symbols:
+  * Macro `MULTIPLE-MULTIPLE-VALUE-BIND`
+  * Macro `M-M-V-B` - a shorthand for the above.
 
+### Sample usage:
 ```common-lisp
 (m-m-v-b ((a b c) (foo)
           (d e f) (bar)
