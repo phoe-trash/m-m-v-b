@@ -7,6 +7,9 @@ Just when you need to accomodate multiple multiple value lists.
   * Macro `MULTIPLE-MULTIPLE-VALUE-BIND`
   * Macro `M-M-V-B` - a shorthand for the above.
 
+### TODO:
+  * Implement parallel binding (sequential binding occurs now)
+
 ### Sample usage:
 ```common-lisp
 (m-m-v-b ((a b c) (foo)
