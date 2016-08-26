@@ -2,7 +2,13 @@
 ;;;; © Michał "phoe" Herda 2016
 ;;;; m-m-v-b.lisp
 
+(defpackage #:m-m-v-b
+  (:use #:cl)
+  (:export #:m-m-v-b
+           #:multiple-multiple-value-bind))
+
 (in-package #:m-m-v-b)
+
 (defmacro m-m-v-b (pairs &body body)
   `(multiple-multiple-value-bind ,pairs ,@body))
 

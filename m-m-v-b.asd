@@ -7,6 +7,5 @@
   :author "Michał \"phoe\" Herda"
   :license "MIT License"
   :serial t
-  :components ((:file "package")
-               (:file "m-m-v-b")))
+  :components ((:file "m-m-v-b")))
 
